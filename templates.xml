@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+
+  <descriptors label="RS9116W - Throughput" description="Configures the RS9116W to perform Wi-Fi throughput measurements using the UDP, TCP or SSL protocol">
+    <properties key="core.boardCompatibility" value="brd4180a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.mg21.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="wlan_throughput-brd4180a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/wlan_throughput-brd4180a.slsproj"/>
+  </descriptors>
+
+  <descriptors label="RS9116W - AWS IoT" description="Connects the RS9116W to a MQTT broker running on the AWS IoT cloud service.">
+    <properties key="core.boardCompatibility" value="brd4180a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.mg21.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="aws_device_shadow-brd4180a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/aws_device_shadow-brd4180a.slsproj"/>
+  </descriptors>
+
+  <descriptors label="RS9116W - Firmware Update" description="Demonstrates how to wirelessly upgrade the RS9116W firmware">
+    <properties key="core.boardCompatibility" value="brd4180a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.mg21.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="firmware_update-brd4180a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/firmware_update-brd4180a.slsproj"/>
+  </descriptors>
+  
+    <descriptors label="RS9116W - Low Power Mode" description="Demonstrates how to configure RS9116W in low power mode">
+    <properties key="core.boardCompatibility" value="brd4180a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.mg21.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="power_save_standby_associated-brd4180a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/power_save_standby_associated-brd4180a.slsproj"/>
+  </descriptors>
+    
+	<descriptors label="RS9116W - Regulatory Certification Test" description="Demonstrates how to configure RS9116W for PER test for Regulatory Certification">
+    <properties key="core.boardCompatibility" value="brd4180a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.mg21.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="transmit_test-brd4180a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/transmit_test-brd4180a.slsproj"/>
+  </descriptors>
+  
+  	<descriptors label="RS9116W - Wi-Fi BLE Coex and BLE Provsioning" description="Demonstrates Wi-Fi BLE Coex mode of RS9116W and BLE provisioning">
+    <properties key="core.boardCompatibility" value="brd4180a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.mg21.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="wlan_station_ble_provisioning-brd4180a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/wlan_station_ble_provisioning-brd4180a.slsproj"/>
+  </descriptors>
+  
+  <descriptors label="RS9116W - Throughput" description="Configures the RS9116W to perform Wi-Fi throughput measurements using the UDP, TCP or SSL protocol">
+    <properties key="core.boardCompatibility" value="brd2204a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efm32.gg11.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="wlan_throughput-brd2204a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/wlan_throughput-brd2204a.slsproj"/>
+  </descriptors>
+
+  <descriptors label="RS9116W - AWS IoT" description="Connects the RS9116W to a MQTT broker running on the AWS IoT cloud service.">
+    <properties key="core.boardCompatibility" value="brd2204a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efm32.gg11.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="aws_device_shadow-brd2204a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/aws_device_shadow-brd2204a.slsproj"/>
+  </descriptors>
+
+  <descriptors label="RS9116W - Firmware Update" description="Demonstrates how to wirelessly upgrade the RS9116W firmware">
+    <properties key="core.boardCompatibility" value="brd2204a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efm32.gg11.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="firmware_update-brd2204a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/firmware_update-brd2204a.slsproj"/>
+  </descriptors>
+  
+      <descriptors label="RS9116W - Low Power Mode" description="Demonstrates how to configure RS9116W in low power mode">
+    <properties key="core.boardCompatibility" value="brd2204a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efm32.gg11.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="power_save_standby_associated-brd2204a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/power_save_standby_associated-brd2204a.slsproj"/>
+  </descriptors>
+    
+	<descriptors label="RS9116W - Regulatory Certification Test" description="Demonstrates how to configure RS9116W for PER test for Regulatory Certification">
+    <properties key="core.boardCompatibility" value="brd2204a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efm32.gg11.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="transmit_test-brd2204a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/transmit_test-brd2204a.slsproj"/>
+  </descriptors>
+  
+  	<descriptors label="RS9116W - Wi-Fi BLE Coex and BLE Provsioning" description="Demonstrates Wi-Fi BLE Coex mode of RS9116W and BLE provisioning">
+    <properties key="core.boardCompatibility" value="brd2204a"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efm32.gg11.*"/>
+    <properties key="core.sdkAndProtocolTags" value="Wi-Fi"/>
+    <properties key="core.quality" value="Evaluation"/>
+    <properties key="defaultName" value="wlan_station_ble_provisioning-brd2204a"/>
+    <properties key="template.initiallyOpenedResource" value="readme.md"/>
+    <properties key="template.projectFilePaths" value="platforms/efx32/projects/wlan_station_ble_provisioning-brd2204a.slsproj"/>
+  </descriptors>
+</model:MDescriptors>
