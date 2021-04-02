@@ -119,4 +119,4 @@
     <properties key="template.initiallyOpenedResource" value="readme.md"/>
     <properties key="template.projectFilePaths" value="platforms/efx32/projects/wlan_station_ble_provisioning-brd2204a.slsproj"/>
   </descriptors>
-</model:MDescriptors>
+</model:MDescriptors> 
