@@ -98,37 +98,20 @@
   
   <includePath uri="$(projectLocation)/third_party/freertos/include"/>
   <includePath uri="$(projectLocation)/third_party/freertos/portable/GCC/ARM_CM4F"/>
-  
-  
   <file name="sapi/network/protocols/rsi_firmware_upgradation.c" uri="sapi/network/protocols/rsi_firmware_upgradation.c" />
-  
   <file name="sapi/network/protocols/rsi_firmware_upgradation.h" uri="sapi/network/protocols/rsi_firmware_upgradation.h" />
-  
   <includePath uri="$(projectLocation)/sapi/network/protocols"/>
-  
-  
-  
   <folder name="sapi/network/protocols/http_server" uri="sapi/network/protocols/http_server" includeAllFiles="true" includeAllFolders="true"/>
-  
   <file name="sapi/network/protocols/http_server/rsi_http_server.c" uri="sapi/network/protocols/http_server/rsi_http_server.c" />
-  
-  
   <includePath uri="$(projectLocation)/sapi/network/protocols/http_server"/>
-  
-  
-  
   <includePath uri="$(projectLocation)/cli"/>
   <includePath uri="$(projectLocation)/cli/command_processor"/>
   
   <includePath uri="$(projectLocation)/platform/board"/>
   <macroDefinition name="RSI_SAMPLE_HAL" />
   <macroDefinition name="RSI_DEBUG_PRINTS" />
-  
-  
   <macroDefinition name="RSI_WLAN_ENABLE" />
   <macroDefinition name="RSI_WITH_OS" />
-  
-  
   <macroDefinition name="RSI_SPI_INTERFACE" />
   
   <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.flags" value="-c -x assembler-with-cpp -mfloat-abi=softfp -mfpu=fpv4-sp-d16 "/>
