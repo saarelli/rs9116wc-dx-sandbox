@@ -27,11 +27,9 @@
   </module>
   <folder name="power_save_standby_associated" >
   	<file name="rsi_wlan_connected_sleep_app.c" uri="examples/wlan/power_save_standby_associated/rsi_wlan_connected_sleep_app.c" />
-  	
   	<file name="rsi_wlan_config.h" uri="examples/wlan/power_save_standby_associated/rsi_wlan_config.h" />
   	
   </folder>
-  
   
   <folder name="third_party">
   <folder name="FreeRTOS-Kernel-main">
@@ -50,52 +48,38 @@
      <file name="MemMang/heap_4.c" uri="third_party/FreeRTOS-Kernel-main/portable/MemMang/heap_4.c" />
     <folder name="GCC">
      <folder name="ARM_CM33_NTZ" uri="third_party/FreeRTOS-Kernel-main/portable/GCC/ARM_CM33_NTZ" includeAllFiles="true" includeAllFolders="true" />
+	</folder>
+	</folder>
+  </folder>  
   </folder>
-  </folder>
-  </folder>
-  
-    </folder>
   <folder name="platform">
     <folder name="hal" uri="platforms/efx32/hal" includeAllFiles="true" includeAllFolders="true" />
     <folder name="core" uri="platforms/efx32/core" includeAllFiles="true" includeAllFolders="true" />
     <folder name="board" uri="platforms/efx32/boards/brd4180a-mg21" includeAllFiles="true" includeAllFolders="true" />
   </folder>
   <folder name="sapi/include" uri="sapi/include" includeAllFiles="true" includeAllFolders="true"/>
-  
-   <folder name="sapi">
+  <folder name="sapi">
    <folder name="rtos">
-  <folder name="freertos_wrapper" uri="sapi/rtos/freertos_wrapper" includeAllFiles="true" includeAllFolders="true" />
+	<folder name="freertos_wrapper" uri="sapi/rtos/freertos_wrapper" includeAllFiles="true" includeAllFolders="true" />
+   </folder>
   </folder>
-  </folder>
-  <includePath uri="$(projectLocation)/sapi/include"/>
   
   <folder name="sapi/common" uri="sapi/common" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/crypto" uri="sapi/crypto" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/driver" uri="sapi/driver" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/driver/device_interface" uri="sapi/driver/device_interface" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/rom" uri="sapi/rom" includeAllFiles="true" includeAllFolders="true"/>
-  <includePath uri="$(projectLocation)/sapi/rom"/>
-  
-
-  
   <folder name="sapi/wlan" uri="sapi/wlan" includeAllFiles="true" includeAllFolders="true"/>
-  
   <file name="sapi/wlan/rsi_wlan_apis.c" uri="sapi/wlan/rsi_wlan_apis.c" />
-  
-  
-  
-  
-  
   <folder name="sapi/network/socket" uri="sapi/network/socket" includeAllFiles="true" includeAllFolders="true"/>
-  
   <file name="sapi/network/socket/rsi_socket.c" uri="sapi/network/socket/rsi_socket.c" />
   <file name="sapi/network/protocols/rsi_dns.c" uri="sapi/network/protocols/rsi_dns.c" />
   
   
   <includePath uri="$(projectLocation)/sapi/network/socket"/>
   
-  
-  
+  <includePath uri="$(projectLocation)/sapi/rom"/>
+  <includePath uri="$(projectLocation)/sapi/include"/>
   <includePath uri="$(projectLocation)/power_save_standby_associated"/>
   
   <includePath uri="$(projectLocation)/platform/board"/>
@@ -103,16 +87,11 @@
   <includePath uri="$(projectLocation)/third_party/FreeRTOS-Kernel-main/include"/>
   <includePath uri="$(projectLocation)/third_party/FreeRTOS-Kernel-main/portable/GCC/ARM_CM33_NTZ/non_secure"/>
   <macroDefinition name="RSI_SAMPLE_HAL" />
-  <macroDefinition name="RSI_DEBUG_PRINTS" />
-  
-  
+  <macroDefinition name="RSI_DEBUG_PRINTS" />  
   <macroDefinition name="RSI_WLAN_ENABLE" />
-  
-  
   <macroDefinition name="RSI_SPI_INTERFACE" />
-    <macroDefinition name="RSI_WITH_OS" />
+  <macroDefinition name="RSI_WITH_OS" />
   <macroDefinition name="RSI_SPI_HIGH_SPEED_ENABLE" />
-  
   
   <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.flags" value="-c -x assembler-with-cpp -mfloat-abi=softfp -mfpu=fpv4-sp-d16 "/>
 </project>
