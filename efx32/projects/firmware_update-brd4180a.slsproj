@@ -67,24 +67,22 @@
   </folder>
   </folder>
  
-  <includePath uri="$(projectLocation)/sapi/include"/>
+  
   <folder name="sapi/common" uri="sapi/common" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/crypto" uri="sapi/crypto" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/driver" uri="sapi/driver" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/driver/device_interface" uri="sapi/driver/device_interface" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/rom" uri="sapi/rom" includeAllFiles="true" includeAllFolders="true"/>
-  <includePath uri="$(projectLocation)/sapi/rom"/>
   <folder name="sapi/wlan" uri="sapi/wlan" includeAllFiles="true" includeAllFolders="true"/>
   <file name="sapi/wlan/rsi_wlan_apis.c" uri="sapi/wlan/rsi_wlan_apis.c" />
   <folder name="sapi/network/socket" uri="sapi/network/socket" includeAllFiles="true" includeAllFolders="true"/>
   <file name="sapi/network/socket/rsi_socket.c" uri="sapi/network/socket/rsi_socket.c" />
   <file name="sapi/network/protocols/rsi_dns.c" uri="sapi/network/protocols/rsi_dns.c" />
-  
-  
-  <includePath uri="$(projectLocation)/sapi/network/socket"/> 
   <file name="sapi/network/protocols/rsi_firmware_upgradation.c" uri="sapi/network/protocols/rsi_firmware_upgradation.c" />
   <file name="sapi/network/protocols/rsi_firmware_upgradation.h" uri="sapi/network/protocols/rsi_firmware_upgradation.h" />
-  
+  <includePath uri="$(projectLocation)/sapi/network/socket"/> 
+  <includePath uri="$(projectLocation)/sapi/include"/>
+  <includePath uri="$(projectLocation)/sapi/rom"/>
   <includePath uri="$(projectLocation)/sapi/network/protocols"/>
   <includePath uri="$(projectLocation)/firmware_update"/>
   <includePath uri="$(projectLocation)/platform/board"/>
