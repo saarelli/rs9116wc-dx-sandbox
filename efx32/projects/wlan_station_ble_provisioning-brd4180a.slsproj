@@ -29,7 +29,6 @@
   	<file name="rsi_ble_app.c" uri="examples/wlan_ble/wlan_station_ble_provisioning/rsi_ble_app.c" />
   	<file name="rsi_wlan_app.c" uri="examples/wlan_ble/wlan_station_ble_provisioning/rsi_wlan_app.c" />
   	<file name="main.c" uri="examples/wlan_ble/wlan_station_ble_provisioning/main.c" />
-  	
   	<file name="rsi_ble_config.h" uri="examples/wlan_ble/wlan_station_ble_provisioning/rsi_ble_config.h" />
   	<file name="rsi_bt_config.h" uri="examples/wlan_ble/wlan_station_ble_provisioning/rsi_bt_config.h" />
   	<file name="rsi_wlan_config.h" uri="examples/wlan_ble/wlan_station_ble_provisioning/rsi_wlan_config.h" />
@@ -53,10 +52,9 @@
      <file name="MemMang/heap_4.c" uri="third_party/FreeRTOS-Kernel-main/portable/MemMang/heap_4.c" />
     <folder name="GCC">
      <folder name="ARM_CM33_NTZ" uri="third_party/FreeRTOS-Kernel-main/portable/GCC/ARM_CM33_NTZ" includeAllFiles="true" includeAllFolders="true" />
-  </folder>
-  </folder>
-  </folder>
-      
+	</folder>
+	</folder>
+  </folder>  
   </folder>
   <folder name="platform">
     <folder name="hal" uri="platforms/efx32/hal" includeAllFiles="true" includeAllFolders="true" />
@@ -64,44 +62,29 @@
     <folder name="board" uri="platforms/efx32/boards/brd4180a-mg21" includeAllFiles="true" includeAllFolders="true" />
   </folder>
   <folder name="sapi/include" uri="sapi/include" includeAllFiles="true" includeAllFolders="true"/>
-  
-   <folder name="sapi">
+  <folder name="sapi">
    <folder name="rtos">
-  <folder name="freertos_wrapper" uri="sapi/rtos/freertos_wrapper" includeAllFiles="true" includeAllFolders="true" />
+	<folder name="freertos_wrapper" uri="sapi/rtos/freertos_wrapper" includeAllFiles="true" includeAllFolders="true" />
+   </folder>
   </folder>
-  </folder>
- 
-  <includePath uri="$(projectLocation)/sapi/include"/>
   
   <folder name="sapi/common" uri="sapi/common" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/crypto" uri="sapi/crypto" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/driver" uri="sapi/driver" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/driver/device_interface" uri="sapi/driver/device_interface" includeAllFiles="true" includeAllFolders="true"/>
   <folder name="sapi/rom" uri="sapi/rom" includeAllFiles="true" includeAllFolders="true"/>
-  <includePath uri="$(projectLocation)/sapi/rom"/>
-  
-
-  
   <folder name="sapi/wlan" uri="sapi/wlan" includeAllFiles="true" includeAllFolders="true"/>
-  
   <file name="sapi/wlan/rsi_wlan_apis.c" uri="sapi/wlan/rsi_wlan_apis.c" />
-  
-  
-  
-  
-  
   <folder name="sapi/network/socket" uri="sapi/network/socket" includeAllFiles="true" includeAllFolders="true"/>
-  
   <file name="sapi/network/socket/rsi_socket.c" uri="sapi/network/socket/rsi_socket.c" />
   <file name="sapi/network/protocols/rsi_dns.c" uri="sapi/network/protocols/rsi_dns.c" />
   
   
   <includePath uri="$(projectLocation)/sapi/network/socket"/>
   
-  
-  
+  <includePath uri="$(projectLocation)/sapi/rom"/>
+  <includePath uri="$(projectLocation)/sapi/include"/>
   <folder name="sapi/bluetooth" uri="sapi/bluetooth" includeAllFiles="true" includeAllFolders="true"/>
-  
   <file name="sapi/bluetooth/rsi_bt_sdp_apis.c" uri="sapi/bluetooth/rsi_bt_sdp_apis.c" />
   <file name="sapi/bluetooth/rsi_bt_spp_apis.c" uri="sapi/bluetooth/rsi_bt_spp_apis.c" />
   <file name="sapi/bluetooth/rsi_bt_gap_apis.c" uri="sapi/bluetooth/rsi_bt_gap_apis.c" />
@@ -123,15 +106,10 @@
   <includePath uri="$(projectLocation)/platform/core"/>
   <includePath uri="$(projectLocation)/third_party/FreeRTOS-Kernel-main/include"/>
   <includePath uri="$(projectLocation)/third_party/FreeRTOS-Kernel-main/portable/GCC/ARM_CM33_NTZ/non_secure"/>
-
   <macroDefinition name="RSI_SAMPLE_HAL" />
-  <macroDefinition name="RSI_DEBUG_PRINTS" />
-  
-  
+  <macroDefinition name="RSI_DEBUG_PRINTS" />  
   <macroDefinition name="RSI_WLAN_ENABLE" />
   <macroDefinition name="RSI_BLE_ENABLE" />
-  
-  
   <macroDefinition name="RSI_SPI_INTERFACE" />
   <macroDefinition name="RSI_WITH_OS" />
   <macroDefinition name="RSI_SPI_HIGH_SPEED_ENABLE" />
